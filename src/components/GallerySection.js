@@ -19,15 +19,15 @@ const GallerySection = () => {
 
   const [index, setIndex]=useState(-1);
   const {title, btnText, btnIcon,images} =galleryData;
-  return <section className='bg-[#f9f9f9]section relative
+  return <section className='bg-[#191B1A] section relative
   mt-[40px] lg:mt-0'>
-    <div className='container mx-auto>'>
+    <div className='container mx-auto text-white' >
       <motion.h2 
       variants={fadeIn('up')}
       initial='hidden'
       whileInView={'show'}
       viewport={{ once: false, amount:0.2 }}
-      className='h2 max-w-[370px] lg:mb-20'>
+      className='h2 max-w-[370px] lg:mb-20 text-white'>
         {title}
       </motion.h2>
     </div>
@@ -57,7 +57,12 @@ const GallerySection = () => {
     whileInView={'show'}
     viewport={{ once: false, amount:0.2 }}
     className='flex justify-center'>
-      <button className='btn btn-lg btn-dark'>
+      <button 
+      onClick={(e) => {
+        e.preventDefault();
+        window.location.href='https://instagram.com/soul.plqr';
+        }} 
+      className='btn btn-lg btn-dark'>
         {btnText} <div className='text-xl'>{btnIcon}</div>
       </button>
     </motion.div>

@@ -11,7 +11,7 @@ import GalleryImg8 from '../src/img/gallery/8.png';
 import QuoteImg from '../src/img/testimonial/quote.svg';
 // import icons
 import { GrFacebookOption } from 'react-icons/gr';
-import { IoMdArrowForward } from 'react-icons/io';
+import { IoLogoWhatsapp, IoMdArrowForward } from 'react-icons/io';
 import { FiSend } from 'react-icons/fi';
 import { FaPlay, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 import {
@@ -27,44 +27,45 @@ export const headerData = {
 
 export const navData = {
   items: [
-    { href: '/', name: 'Home' },
+    //{ href: '/', name: 'Home' },
     { href: '/', name: 'About' },
-    { href: '/', name: 'Gallery' },
-    { href: '/', name: 'Interview' },
-    { href: '/', name: 'Articles' },
-    { href: '/', name: 'Contact' },
+    { href: '/', name: 'Galeria' },
+   // { href: '/', name: 'Interview' },
+   //{ href: '/', name: 'Articles' },
+    { href: '/', name: 'Contacto' },
   ],
 };
 
 export const socialData = [
-  { href: '/', icon: <GrFacebookOption /> },
-  { href: '/', icon: <IoLogoInstagram /> },
-  { href: '/', icon: <IoLogoPinterest /> },
+  //{ href: '/', icon: <GrFacebookOption /> },
+  { href: 'https://instagram.com/soul.plqr', icon: <IoLogoInstagram /> },
+  //{ href: '/', icon: <IoLogoPinterest /> },
   { href: '/', icon: <IoLogoTwitter /> },
   { href: '/', icon: <IoLogoYoutube /> },
+  { href: 'https://api.whatsapp.com/message/AE4HOW7JMQEMG1?autoload=1&app_absent=0', icon: <IoLogoWhatsapp /> }
 ];
 
 export const heroData = {
-  title: 'I’m Void Sir.',
+  title: 'SOUL PELUQUERIA',
   subtitle:
-    'Tattoos have their own unique power and magic. They not only beautify the body but also the psyche.',
-  btnText: 'read more',
+    'Los peinados tienen su propio poder y magia únicos. No sólo embellecen la cara sino también el autoestima.',
+  btnText: 'Mas informacion',
   btnIcon: <IoMdArrowForward />,
 };
 
 export const aboutData = {
-  title: 'My Story:',
+  title: 'sobre soul',
   subtitle1:
     'In velit arcu posuere integer. Dolor sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus hac vel ante sit sed scelerisque praesent duis volutpat laoreet.',
   subtitle2:
     'Nisl, sit molestie commodo congue. Etiam lectus risus in amet. Commodo molestie fames etiam aenean sed. Pellentesque et venenatis amet, tellus hac vel adipiscing sit. Placerat vitae nisl viverra faucibus tincidunt habitasse amet. Nunc, velit nunc, scelerisque imperdiet nunc.',
-  btnText: 'Know more',
+  btnText: 'mas informacion',
   btnIcon: <IoMdArrowForward />,
 };
 
 export const galleryData = {
-  title: 'Check my gallery:',
-  btnText: 'View all',
+  title: 'Visita mi galeria:',
+  btnText: 'Ver más',
   btnIcon: <IoMdArrowForward />,
   images: [
     {

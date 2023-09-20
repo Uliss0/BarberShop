@@ -14,7 +14,7 @@
     @apply uppercase font-primary tracking-[0.08em];
   }
   .h1 {
-    @apply text-[60px] lg:text-[118px] tracking-[-2px] leading-none font-tertiary mb-4;
+    @apply text-[60px] lg:text-[118px] tracking-[-2px] leading-none font-tertiary mb-4 ;
   }
   .h2 {
     @apply text-[40px] xl:text-[85px] text-dark uppercase font-primary max-w-[236px] leading-none mb-[38px];
@@ -38,4 +38,12 @@
   .btn-link {
     @apply px-0 h-auto text-dark hover:text-dark/90 transition-all;
   }
+}
+.h1{
+  text-shadow: 1px 2px black;
+
+}
+.p{
+  text-shadow: 2px 2px black;
+
 }

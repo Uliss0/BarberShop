@@ -29,8 +29,8 @@ const Hero = () => {
       xl:justify-end'
     >
       {/*text  -btn*/}
-      <div className='text-white text-center lg:text-left
-      lg:max-w-[640px]'>
+      <div className='text-white text-center lg:text-left 
+      lg:max-w-[640px] ' >
         <motion.h1 
           variants={fadeIn('down')}
           className='h1'>{title}
@@ -38,11 +38,15 @@ const Hero = () => {
         <motion.p 
           variants={fadeIn('down')}
           className='mb-8 lg:mb-16 max-w-lg
-          leading-relaxed'>{subtitle}
+          leading-relaxed' >{subtitle}
         </motion.p>
         <motion.div variants={fadeIn('down')}>
-          <button className='btn btn-sm lg:btn-lg
-            btn-outline mx-auto lg:mx-0'>{btnText}
+          <button  onClick={(e) => {
+              e.preventDefault();
+              window.location.href='https://instagram.com/soul.plqr';
+              }} 
+          className='btn btn-sm lg:btn-lg
+            btn-outline mx-auto lg:mx-0 text-white hover:bg-[#48B693]'>{btnText}
               <div className='text-xl'>{btnIcon}</div>
           </button>
         </motion.div>

@@ -4,8 +4,9 @@ module.exports = {
   theme: {
     fontFamily: {
       primary: 'Oswald',
-      secondary: 'Raleway',
+      secondary: 'Trirong',
       tertiary: 'Rozha One',
+      
     },
     container: {
       padding: {
