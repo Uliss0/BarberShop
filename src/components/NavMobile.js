@@ -9,7 +9,7 @@ const NavMobile = () => {
   
   return (
   <nav className='w-full h-full flex flex-col
-  justify-evenly overflow-hidden '>
+  justify-evenly overflow-hidden bg-[#48B693]'>
     <ul className='flex justify-center items-center gap-x-[15px] pr-[25px]   '>
       {items.map((item, index) => {
         return (

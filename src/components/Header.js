@@ -26,9 +26,9 @@ const Header = () => {
     w-full mx-auto transition-all duration-300 `}
   >
     <div className='flex justify-between items-center
-    h-full pl-[30px] pr-[60px]'>
+    h-full pl-[10px] pr-[60px]'>
       {/* */}
-      <a href='/'>
+      <a href='#hero'>
         <img className='w-[250px] h-[100px]' src={logo} alt=''/>
       </a>
       {/* nav hidden*/ }
@@ -49,15 +49,17 @@ const Header = () => {
         isActive 
         ? 'top-[100px] lg:top-[110px]'
         : 'top-[120px] lg:top-[150px]'
-      }fixed bg-[#48B693] w-full h-full left-0 -z-10 
+      }fixed bg-[#48B693] w-full h-full left-0 
       transition-all duration-300`}>
         <NavMobile/>
+        
       </div>
       {/*socials*/}
       <div className='hidden xl:flex'>
         <Socials/>
       </div>
     </div>
+    
   </header>
   );
 };

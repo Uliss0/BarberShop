@@ -28,11 +28,11 @@ export const headerData = {
 export const navData = {
   items: [
     //{ href: '/', name: 'Home' },
-    { href: '/', name: 'About' },
-    { href: '/', name: 'Galeria' },
+    { href: '#about', name: 'About' },
+    { href: '#galeria', name: 'Galeria' },
    // { href: '/', name: 'Interview' },
    //{ href: '/', name: 'Articles' },
-    { href: '/', name: 'Contacto' },
+    { href: '#contacto', name: 'Contacto' },
   ],
 };
 
@@ -196,7 +196,7 @@ export const footerData = {
   aboutCreator: {
     title: 'Creado Por',
     subtitle:
-      'Ulises Moreyra - Front-end Developer',
+      'Ulises Moreyra ',
     phone: {
       icon: <FaPhoneAlt />,
       number: '+54 2914187213',
@@ -209,18 +209,10 @@ export const footerData = {
   links: {
     title: 'Links Utiles',
     items: [
-      { href: '/', name: 'About me' },
-      { href: '/', name: 'Galeria' },
-      { href: '/', name: 'Contacto' },
+      { href: '#about', name: 'About me' },
+      { href: '#galeria', name: 'Galeria' },
+      { href: '#contacto', name: 'Contacto' },
     ]
     ,
-  },
-  program: {
-    title: 'Horario de Atencion',
-    items: [
-      { name: 'Martes - Viernes / 10:00am - 7:00pm' },
-      { name: 'Sabado / 10:00am - 4:00pm' },
-      { name: 'Domingo y Lunes - Cerrado' },
-    ],}
-  };
+  }};
   

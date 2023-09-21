@@ -19,7 +19,7 @@ const GallerySection = () => {
 
   const [index, setIndex]=useState(-1);
   const {title, btnText, btnIcon,images} =galleryData;
-  return <section className='bg-[#191B1A] section relative
+  return <section id='galeria' className='bg-[#191B1A] section relative
   mt-[40px] lg:mt-0'>
     <div className='container mx-auto text-white' >
       <motion.h2 

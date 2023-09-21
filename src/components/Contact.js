@@ -10,7 +10,7 @@ const {title, info, program} = contactData;
 
 
 
-  return  <section className=' section'>
+  return  <section id='contacto' className=' section'>
     <div className='container mx-auto'>
       <div className='flex flex-col xl:flex-row gap-y-8 text-white'>
         {/*text */}

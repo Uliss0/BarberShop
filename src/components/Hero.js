@@ -17,7 +17,7 @@ const Hero = () => {
   const {title, subtitle, btnText, btnIcon} = heroData;
 
   return (
-  <section className='bg-hero bg-cover bg-center
+  <section id='hero' className='bg-hero bg-cover bg-center
   min-h-[40vh] lg:h-[948px] bg-no-repeat relative mt-[120px]
   lg:mt-[150px]'>
     <motion.div 

@@ -10,7 +10,7 @@ aboutData;
 
 
   return (
-    <section className='lg:py-16 xl:pb-[80px] bg-[#191B1A]'>
+    <section id='about' className='lg:py-16 xl:pb-[80px] bg-[#191B1A]'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row gap-x-[70px]
         items-center'>
