@@ -10,7 +10,7 @@ aboutData;
 
 
   return (
-    <section className='lg:py-16 xl:pb-[160px] bg-[#191B1A]'>
+    <section className='lg:py-16 xl:pb-[80px] bg-[#191B1A]'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row gap-x-[70px]
         items-center'>
@@ -42,10 +42,11 @@ aboutData;
                 <button 
                 onClick={(e) => {
                   e.preventDefault();
-                  window.location.href='https://api.whatsapp.com/message/AE4HOW7JMQEMG1?autoload=1&app_absent=0';
+                  window.location.href='https://instagram.com/leanbarrientos_';
                   }} 
                 
-                className='btn btn-lg btn-link text-[#ABB5B1] hover:text-white'>
+                className='btn btn-sm lg:btn-lg
+                btn-outline mx-auto lg:mx-0 text-white hover:bg-[#48B693]'>
                   {btnText}<div className='text-xl text-[#ABB5B1] hover:text-white' >{btnIcon}</div>
                   </button>
               </div>

@@ -35,7 +35,7 @@ const Hero = () => {
           variants={fadeIn('down')}
           className='h1'>{title}
         </motion.h1>
-        <motion.p 
+        <motion.p id='phero'
           variants={fadeIn('down')}
           className='mb-8 lg:mb-16 max-w-lg
           leading-relaxed' >{subtitle}

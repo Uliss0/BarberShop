@@ -144,26 +144,26 @@ export const testimonialData = [
 ];
 
 export const contactData = {
-  title: 'Get in touch with me:',
+  title: 'Contacto:',
   info: [
     {
-      title: 'LA office',
+      title: 'Soul Villa Mitre',
       subtitle:
-        'In velit arcu posuere integer sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus',
+        'Peluquería - Barbería',
       address: {
         icon: <FaMapMarkerAlt />,
-        name: '784 Norman Street, Los Angeles',
+        name: '•  Washington 169, Bahia Blanca, Buenos Aires',
       },
       phone: {
         icon: <FaPhoneAlt />,
-        number: '+49 93 30493943',
+        number: ' +54 2914320409',
       },
       email: {
         icon: <FaEnvelope />,
-        address: 'contact@yourcompany.com',
+        address: '• leandrobarrientos@gmail.com',
       },
-      link: 'Get location',
-    },
+      link: '',
+    }/*,
     {
       title: 'NYC office',
       subtitle:
@@ -181,59 +181,46 @@ export const contactData = {
         address: 'contact@yourcompany.com',
       },
       link: 'Get location',
-    },
+    },*/
   ],
-  form: {
-    name: 'Write your name here',
-    email: 'Write your email address',
-    message: 'Write your messages here',
-    btnText: 'Send it',
-  },
-};
-
+  program: {
+    title: 'Horario de Atencion:',
+    items: [
+      { name: 'Martes - Viernes / 10:00am - 7:00pm' },
+      { name: 'Sabado / 10:00am - 4:00pm' },
+      { name: 'Domingo y Lunes - Cerrado' },
+    ],}
+}
+;
 export const footerData = {
-  about: {
-    title: 'About void tattoo',
+  aboutCreator: {
+    title: 'Creado Por',
     subtitle:
-      'Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus',
-    address: {
-      icon: <FaMapMarkerAlt />,
-      name: '1630 Elm Drive, New York City',
-    },
+      'Ulises Moreyra - Front-end Developer',
     phone: {
       icon: <FaPhoneAlt />,
-      number: '+49 34 36573355',
+      number: '+54 2914187213',
     },
     email: {
       icon: <FaEnvelope />,
-      address: 'contact@yourcompany.com',
+      address: 'ulisesfmoreyra@gmail.com',
     },
   },
   links: {
-    title: 'Useful links',
+    title: 'Links Utiles',
     items: [
       { href: '/', name: 'About me' },
-      { href: '/', name: 'My gallery' },
-      { href: '/', name: 'My services' },
-      { href: '/', name: 'Contact me' },
-    ],
+      { href: '/', name: 'Galeria' },
+      { href: '/', name: 'Contacto' },
+    ]
+    ,
   },
   program: {
-    title: 'Working Time',
+    title: 'Horario de Atencion',
     items: [
-      { name: 'Mon - Tue / Appointment' },
-      { name: 'Wed - Fri / 10:00 - 9:00pm' },
-      { name: 'Sat / 10:00 - 6:00pm' },
-      { name: 'Sun / no work on this day' },
-    ],
-  },
-  newsletter: {
-    title: 'Newsletter',
-    subtitle:
-      'Elit duis porttitor massa tellus nun in velit arcu posuere integer.',
-    form: {
-      placeholder: 'Your email address',
-      icon: <FiSend />,
-    },
-  },
-};
+      { name: 'Martes - Viernes / 10:00am - 7:00pm' },
+      { name: 'Sabado / 10:00am - 4:00pm' },
+      { name: 'Domingo y Lunes - Cerrado' },
+    ],}
+  };
+  

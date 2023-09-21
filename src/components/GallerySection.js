@@ -62,7 +62,8 @@ const GallerySection = () => {
         e.preventDefault();
         window.location.href='https://instagram.com/soul.plqr';
         }} 
-      className='btn btn-lg btn-dark'>
+      className='btn btn-sm lg:btn-lg
+      btn-outline mx-auto lg:mx-0 text-white hover:bg-[#48B693]'>
         {btnText} <div className='text-xl'>{btnIcon}</div>
       </button>
     </motion.div>
