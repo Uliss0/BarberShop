@@ -160,7 +160,7 @@ export const contactData = {
       },
       email: {
         icon: <FaEnvelope />,
-        address: '• leandrobarrientos@gmail.com',
+        address: '• barrientosleandror@gmail.com',
       },
       link: '',
     }/*,
