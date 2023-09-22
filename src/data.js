@@ -16,7 +16,7 @@ import { FiSend } from 'react-icons/fi';
 import { FaPlay, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 import {
   IoLogoInstagram,
-  IoLogoPinterest,
+  //IoLogoPinterest,
   IoLogoTwitter,
   IoLogoYoutube,
 } from 'react-icons/io';
@@ -197,10 +197,10 @@ export const footerData = {
     title: 'Creado Por',
     subtitle:
       'Ulises Moreyra ',
-    phone: {
+    /*phone: {
       icon: <FaPhoneAlt />,
       number: '+54 2914187213',
-    },
+    },*/
     email: {
       icon: <FaEnvelope />,
       address: 'ulisesfmoreyra@gmail.com',
