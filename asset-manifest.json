@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Barbershop/static/css/main.1d75f810.css",
+    "main.js": "/Barbershop/static/js/main.7a82d65d.js",
+    "static/media/bg.jpg": "/Barbershop/static/media/bg.daba4707cf914530823f.jpg",
+    "static/media/5.png": "/Barbershop/static/media/5.2134e1f4168bb6eb52b7.png",
+    "static/media/2.png": "/Barbershop/static/media/2.14367c4fa52c329590f2.png",
+    "static/media/3.png": "/Barbershop/static/media/3.abeb51527d10a33e3580.png",
+    "static/media/7.png": "/Barbershop/static/media/7.d98e5ae0957802e34b48.png",
+    "static/media/4.png": "/Barbershop/static/media/4.7c6f8b5a32b3f6f169df.png",
+    "static/media/image.png": "/Barbershop/static/media/image.6a4696eee1cfb0555726.png",
+    "static/media/8.png": "/Barbershop/static/media/8.af8d85532afe6dcf3e4f.png",
+    "static/media/1.png": "/Barbershop/static/media/1.885c6cb8c79a6ad6caf2.png",
+    "static/media/6.png": "/Barbershop/static/media/6.00da6c70e90e51a557af.png",
+    "static/media/outline-text.svg": "/Barbershop/static/media/outline-text.20c01f3b78e7e9864ab2.svg",
+    "static/media/logo.svg": "/Barbershop/static/media/logo.fea76e08474aea2fc039204c6a5271cf.svg",
+    "static/media/quote.svg": "/Barbershop/static/media/quote.b6c84129796166895505ca1a3ba52a66.svg",
+    "index.html": "/Barbershop/index.html",
+    "main.1d75f810.css.map": "/Barbershop/static/css/main.1d75f810.css.map",
+    "main.7a82d65d.js.map": "/Barbershop/static/js/main.7a82d65d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d75f810.css",
+    "static/js/main.7a82d65d.js"
+  ]
+}
