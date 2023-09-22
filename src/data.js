@@ -10,9 +10,9 @@ import GalleryImg7 from '../src/img/gallery/7.png';
 import GalleryImg8 from '../src/img/gallery/8.png';
 import QuoteImg from '../src/img/testimonial/quote.svg';
 // import icons
-import { GrFacebookOption } from 'react-icons/gr';
+//import { GrFacebookOption } from 'react-icons/gr';
 import { IoLogoWhatsapp, IoMdArrowForward } from 'react-icons/io';
-import { FiSend } from 'react-icons/fi';
+//import { FiSend } from 'react-icons/fi';
 import { FaPlay, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 import {
   IoLogoInstagram,
