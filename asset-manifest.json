@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BarberShop/static/css/main.d8514314.css",
-    "main.js": "/BarberShop/static/js/main.4d8f0a3b.js",
+    "main.css": "/BarberShop/static/css/main.e50fff3e.css",
+    "main.js": "/BarberShop/static/js/main.6f07fdf4.js",
     "static/media/bg.jpg": "/BarberShop/static/media/bg.daba4707cf914530823f.jpg",
     "static/media/5.png": "/BarberShop/static/media/5.2134e1f4168bb6eb52b7.png",
     "static/media/2.png": "/BarberShop/static/media/2.14367c4fa52c329590f2.png",
@@ -12,15 +12,16 @@
     "static/media/8.png": "/BarberShop/static/media/8.af8d85532afe6dcf3e4f.png",
     "static/media/1.png": "/BarberShop/static/media/1.885c6cb8c79a6ad6caf2.png",
     "static/media/6.png": "/BarberShop/static/media/6.00da6c70e90e51a557af.png",
+    "static/media/NewVictoriaDemo.otf": "/BarberShop/static/media/NewVictoriaDemo.70c58a0fb72af9002cb0.otf",
     "static/media/outline-text.svg": "/BarberShop/static/media/outline-text.20c01f3b78e7e9864ab2.svg",
     "static/media/logo.svg": "/BarberShop/static/media/logo.fea76e08474aea2fc039204c6a5271cf.svg",
     "static/media/quote.svg": "/BarberShop/static/media/quote.b6c84129796166895505ca1a3ba52a66.svg",
     "index.html": "/BarberShop/index.html",
-    "main.d8514314.css.map": "/BarberShop/static/css/main.d8514314.css.map",
-    "main.4d8f0a3b.js.map": "/BarberShop/static/js/main.4d8f0a3b.js.map"
+    "main.e50fff3e.css.map": "/BarberShop/static/css/main.e50fff3e.css.map",
+    "main.6f07fdf4.js.map": "/BarberShop/static/js/main.6f07fdf4.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8514314.css",
-    "static/js/main.4d8f0a3b.js"
+    "static/css/main.e50fff3e.css",
+    "static/js/main.6f07fdf4.js"
   ]
 }
